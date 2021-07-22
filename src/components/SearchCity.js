@@ -1,6 +1,6 @@
 import turkeyCityList from "../turkeyCityList";
 import getWeatherInfoFromApiByCity from "./getWeatherInfoFromApiByCity";
-import styled, { css } from "styled-components";
+import { StyledSearch, StyledInput } from "../styles/styledComponents";
 import { useState } from "react";
 import WeatherCard from "./WeatherCard";
 const SearchCity = () => {
@@ -31,20 +31,5 @@ const SearchCity = () => {
     </StyledSearch>
   );
 };
-const StyledInput = styled.input`
-  border-radius: 10px;
-  width: 20vw;
-  height: 5vh;
-  margin-top: 1vh;
-  font-size: calc(1vw + 1vh + 0.5vmin);
-`;
-const StyledSearch = styled.div`
-  grid-area: Search;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: calc(1vw + 1vh + 0.5vmin);
-  text-decoration: underline;
-`;
 
 export default SearchCity;
