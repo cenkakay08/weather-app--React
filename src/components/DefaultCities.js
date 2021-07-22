@@ -11,7 +11,9 @@ const DefaultCities = () => {
   return (
     <StyledDefaultCities>
       {defaultCities
-        ? defaultCities.map((city) => <WeatherCard {...city}></WeatherCard>)
+        ? defaultCities.map((city, i) => (
+            <WeatherCard key={i} {...city}></WeatherCard>
+          ))
         : null}
     </StyledDefaultCities>
   );
