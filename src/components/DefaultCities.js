@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import getDefaultCitiesInfo from "./getDefaultCitiesInfo";
 import WeatherCard from "./WeatherCard";
-import styled, { css } from "styled-components";
+import { StyledDefaultCities } from "../styles/styledComponents";
 
 const DefaultCities = () => {
   const [defaultCities, setDefaultCities] = useState(null);
@@ -16,9 +16,5 @@ const DefaultCities = () => {
     </StyledDefaultCities>
   );
 };
-const StyledDefaultCities = styled.div`
-  grid-area: DefaultCities;
-  align-items: center;
-  text-align: center;
-`;
+
 export default DefaultCities;
