@@ -32,5 +32,8 @@ const StyledApp = styled.div`
   justify-items: center;
   align-items: center;
   height: 100vh;
+  @media (max-width: 500px) {
+    height: 120vh;
+  }
 `;
 export default App;
