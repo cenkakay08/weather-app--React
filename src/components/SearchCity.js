@@ -1,4 +1,4 @@
-import turkeyCityList from "../turkeyCityList";
+import turkeyCityList from "../Data/turkeyCityList";
 import getWeatherInfoFromApiByCity from "./getWeatherInfoFromApiByCity";
 import { StyledSearch, StyledInput } from "../styles/styledComponents";
 import { useState } from "react";

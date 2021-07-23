@@ -18,6 +18,7 @@
     "react-geocode": "^0.2.3",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
+    "sweetalert2": "^11.0.19",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
