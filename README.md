@@ -10,3 +10,7 @@ You can get weather info from any City. In addition, the website can automatical
 
 [Styled-components](https://styled-components.com/) used for styling. CSS-Grid used for main layout and used some media queries for responsive design.
 React Hooks used for dynamic data.
+
+https://weather-app-react-sigma.vercel.app/
+
+![grab-landing-page](https://media.giphy.com/media/6VyURnvieJqLAMqduv/giphy.gif)
