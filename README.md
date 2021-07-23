@@ -1,6 +1,6 @@
 # Features
 
-You can get weather info from any City. In addition, the website can automatically find the city you are in. (If you have given the location permission.)
+You can get weather info from any City. In addition, the website can automatically find the city you are in. (You have to disable adblock!)
 
 ## Used API's
 
