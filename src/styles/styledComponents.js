@@ -17,7 +17,7 @@ export const StyledApp = styled.div`
   align-items: center;
   height: 100vh;
   @media (max-width: 500px) {
-    height: 120vh;
+    height: 150vh;
   }
 `;
 
@@ -34,7 +34,7 @@ export const MainLogo = styled.img`
 `;
 export const StyledMainTitle = styled.span`
   font-family: "Tourney", cursive;
-  font-size: calc(2vw + 2vh + 0.5vmin);
+  font-size: clamp(70px, 2vw, 120px);
   text-shadow: 4px 4px 4px #aaa;
 `;
 
@@ -44,8 +44,8 @@ export const StyledCard = styled.span`
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   background: #b5e2fa;
-  min-width: fit-content;
-  width: 20vw;
+  width: clamp(100px, 20vw, 500px);
+
   font-size: calc(1vw + 1vh + 0.5vmin);
   display: inline-block;
   border-radius: 51% 49% 31% 69% / 100% 0% 100% 0%;
@@ -79,6 +79,7 @@ export const StyledButton = styled.button`
   font-size: calc(1vw + 1vh + 0.5vmin);
   font-weight: 200;
   letter-spacing: 1px;
+  width: clamp(100px, 25vw, 500px);
   padding: 13px 50px 13px;
   outline: 0;
   border: 1px solid black;
@@ -109,11 +110,10 @@ export const StyledWarning = styled.u`
 
 export const StyledInput = styled.input`
   border-radius: 10px;
-  width: 20vw;
+  width: clamp(100px, 25vw, 500px);
   height: 5vh;
   margin-top: 1vh;
   font-size: calc(1vw + 1vh + 0.5vmin);
-  min-width: 200px;
 `;
 export const StyledSearch = styled.div`
   grid-area: Search;
